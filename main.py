@@ -24,6 +24,7 @@ print(f"Found {len(files)} files")
 for file in files:
     if os.path.isdir(file):
         continue
+    
     if file == "main.py":
         continue
 
